@@ -1,11 +1,10 @@
 import express from 'express'
+import { singup } from '../controllers/auth.controller.js';
 
 const router = express.Router()
 
 
-router.get("/singup", (req, res) => {
-    res.send('Singup endpoint');
-})
+router.post("/singup", singup)
 router.get("/login", (req, res) => {
     res.send('Login endpoint');
 })
