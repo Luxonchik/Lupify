@@ -95,3 +95,7 @@ export const logout = (_, res) => {
     res.cookie("jwt", "", {maxAge:0})
     res.status(200).json({message:"Logged out successfully"})
 }
+
+export const updateProfile = async (req, res) => {
+    
+}
