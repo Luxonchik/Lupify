@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import PageLoader from "./components/PageLoader";
 import { Toaster } from "react-hot-toast";
 import SignUpPage from "./pages/SignupPage";
-
+ // asd
 function App() {
   const { checkAuth, isCheckingAuth, authUser } = useAuthStore();
   useEffect(() => {
